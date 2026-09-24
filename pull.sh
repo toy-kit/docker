@@ -26,13 +26,13 @@ REGISTRY_TAG="${REGISTRY_TAG/:/.}"
 
 REGISTRY_IMAGE="${REGISTRY}:${REGISTRY_TAG}"
 
-echo "==> Pulling: ${REGISTRY_IMAGE}"
+echo "Pulling: ${REGISTRY_IMAGE}"
 docker pull "${REGISTRY_IMAGE}"
 
-echo "==> Tagging: ${REGISTRY_IMAGE} -> ${IMAGE}"
+echo "Tagging: ${REGISTRY_IMAGE} -> ${IMAGE}"
 docker tag "${REGISTRY_IMAGE}" "${IMAGE}"
 
-echo "==> Removing registry image: ${REGISTRY_IMAGE}"
+echo "Removing registry image: ${REGISTRY_IMAGE}"
 docker rmi "${REGISTRY_IMAGE}"
 
-echo "==> Done: ${IMAGE}"
+echo "Done: ${IMAGE}"

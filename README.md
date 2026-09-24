@@ -31,11 +31,17 @@ A proxy repository that mirrors Docker Official Images to Alibaba Cloud Containe
 
 ### pull.sh
 
-`pull.sh` pulls an image from the Alibaba Cloud registry, retags it to the official name, and removes the registry-tagged copy.
+```bash
+curl -fsSL https://github.com/toy-kit/docker/raw/master/pull.sh | bash -s -- <image>
+
+curl -fsSL https://gitee.com/toy-kit/docker/raw/master/pull.sh | bash -s -- <image>
+```
 
 ```bash
 bash pull.sh <image>
 ```
+
+> `pull.sh` pulls an image from the Alibaba Cloud registry, retags it to the official name, and removes the registry-tagged copy.
 
 #### Examples
 
@@ -48,12 +54,6 @@ bash pull.sh golang:1.23-alpine
 
 # Pull redis:8-alpine
 bash pull.sh redis:8-alpine
-```
-
-#### Via curl
-
-```bash
-curl -fsSL <raw_url>/pull.sh | bash -s -- library/golang:1.23-alpine
 ```
 
 ## Image Mapping
