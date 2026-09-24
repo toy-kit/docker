@@ -13,8 +13,8 @@ A proxy repository that mirrors Docker Official Images to Alibaba Cloud Containe
 | elasticsearch | 8.19.22, 9.4.6, 9.5.3 |
 | gcc | 12.5.0, 13.5.0, 14.4.0, 15.3.0, 16.2.0 |
 | golang | 1.20-alpine, 1.21-alpine, 1.22-alpine, 1.23-alpine, 1.24-alpine, 1.25-alpine, 1.26-alpine, 1.27-alpine |
-| influxdb | 3.11-alpine |
-| mariadb | 13.1 |
+| influxdb | 3.5-core |
+| mariadb | 12.3 |
 | memcached | 1.6.45-alpine |
 | mongo | 8.3-noble |
 | mysql | 5.6.51, 5.7.44, 8.4, 9.7 |

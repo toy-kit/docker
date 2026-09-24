@@ -1,1 +1,0 @@
-FROM influxdb:3.11-alpine
