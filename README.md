@@ -26,6 +26,7 @@ A proxy repository that mirrors Docker Official Images to Alibaba Cloud Containe
 | rabbitmq | 4.3-alpine |
 | redis | 8.10-alpine |
 | ubuntu | 22.04, 24.04, 26.04 |
+| onlyoffice/documentserver | 9.4.0 |
 
 ## Usage
 
